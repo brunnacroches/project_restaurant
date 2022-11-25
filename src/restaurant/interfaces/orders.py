@@ -58,7 +58,7 @@ class ServerSuppliersInterface(ABC):
 class ServerPhoneInterface(ABC):
 
   @abstractmethod
-  def prepare_food(self) -> int: pass
+  def server_client_phone(self) -> int: pass
 
 # agendamentos
 class SchedulesInterface(ABC):
